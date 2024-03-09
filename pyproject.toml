@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "interview-practice"
+version = "0.1.0"
+description = ""
+authors = ["Noah MacCallum <noahmacca@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+seaborn = "^0.13.2"
+openai = "^1.13.3"
+anthropic = "^0.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
